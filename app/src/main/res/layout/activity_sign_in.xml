@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myVerticalScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundsignuip"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".movieapp.activities.SignInActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="320dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></RelativeLayout> <!--Menu-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="302dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="TicketNow"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="26dp"
+                        android:textStyle="bold" />
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/relativeLayout1"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="30dp">
+
+                    <ImageView
+                        android:id="@+id/imgView_usernameIcon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@color/colorPrimary"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_acccount" />
+
+                        <EditText
+                            android:id="@+id/edtUsername"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/imgView_usernameIcon"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/imgView_usernameIcon"
+                            android:background="#DADADA"
+                            android:hint="Tên đăng nhập"
+                            android:inputType="text"
+                            android:paddingLeft="20dp"
+                            android:text=""
+                            android:textSize="15sp" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/relativeLayout1"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="30dp">
+
+                        <ImageView
+                            android:id="@+id/imgView_passwordIcon"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:background="@color/colorPrimary"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_lock" />
+
+                        <EditText
+                            android:id="@+id/edtPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/imgView_passwordIcon"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/imgView_passwordIcon"
+                            android:background="#DADADA"
+                            android:hint="Mật khẩu"
+                            android:inputType="textPassword"
+                            android:paddingLeft="20dp"
+                            android:text=""
+                            android:textSize="15sp" />
+                    </RelativeLayout>
+                    <Button
+                        android:id="@+id/btnLogin"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/button_border_background"
+                        android:onClick="dangnhap"
+                        android:text="Đăng nhập"
+                        android:textColorHint="@color/colorWhite"
+                        android:textSize="20dp"
+                        android:theme="@style/AppTheme" />
+                </LinearLayout> <!--Login-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TableRow
+                            android:layout_width="160dp"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@color/colorWhite"
+                            android:gravity="right" />
+
+                    </LinearLayout>
+
+                </LinearLayout> <!--Line separate-->
+
+            </LinearLayout> <!--Menu and login-->
+
+        </RelativeLayout> <!--Top content-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bạn chưa có tài khoản?"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/design_default_color_primary_dark"
+                android:hint="Đăng ký tài khoản"
+                android:theme="@style/AppTheme"
+                android:onClick="dangky"
+                android:textColorHint="@color/colorWhite"
+                android:textSize="16dp" />
+
+            <TableRow
+                android:layout_height="1dp"
+                android:layout_width="280dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorWhite"/> <!--Line separate-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center" >
+
+
+            </LinearLayout> <!--About and contact-->
+
+        </LinearLayout> <!--Bottom content-->
+
+    </LinearLayout> <!--Page login-->
+
+</ScrollView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#db0000</color>
+    <color name="colorPrimaryDark">#831010</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBackgroundBlack">#0E1934</color>
+    <color name="colorDarkBackground">#1A1F2A</color>
+    <color name="colorLightBackground">#253453</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textColorPrimaryDark">#9ba3af</color>
+    <color name="textColorDark">#ff000000</color>
+    <color name="textColorDarkGrey">#B2202020</color>
+    <color name="colorLightGreen">#7FCF26</color>
+    <color name="colorLightOrange">#DA5342</color>
+    <color name="colorFacebook">#f55585c5</color>
+    <color name="colorGmail">#fdd34836</color>
+    <color name="colorZalo">#f456b0f1</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorGreen">#4CAF50</color>
+    <color name="colorYellow">#FFFFC107</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorCardView">#0E1940</color>
+    <color name="dialogButtonText">#D81B60</color>
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="colorItemDisabled">#B2949494</color>
+    <color name="text_not_focus">#bbb</color>
+    <color name="panel_background">#090909</color>
+    <color name="FlatRed">#FF3B30</color>
+    <color name="setting_label_color">#B8B8B8</color>
+    <color name="FlatPurple">#5856D6</color>
+    <color name="heavy_yellow">#FF3300</color>
+</resources>

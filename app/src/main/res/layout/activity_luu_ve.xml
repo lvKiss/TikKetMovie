@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+
+    android:background="@android:color/black"
+    android:descendantFocusability="blocksDescendants"
+    >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/container_ticket_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="30dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="15dp"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:background="@drawable/border_background_primary_color"
+                        app:layout_constraintTop_toTopOf="parent">
+
+
+                        <LinearLayout
+
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10sp"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                android:text="Mã vé:   "
+                                android:textSize="22dp" />
+
+                            <TextView
+                                android:id="@+id/txtMave"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="123"
+                                android:textStyle="bold"
+                                android:textSize="25dp"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10sp"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                android:text="Tên phim:   "
+                                android:textSize="22dp" />
+
+                            <TextView
+                                android:id="@+id/txttenphim"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="123"
+                                android:textStyle="bold"
+                                android:textSize="25dp"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                android:layout_marginBottom="10sp"
+                                android:text="Thời gian:   "
+                                android:textSize="22dp"
+                                />
+
+                            <TextView
+                                android:id="@+id/txtThoigian"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="123"
+                                android:textStyle="bold"
+                                android:textSize="25dp"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10sp"
+                                android:text="Ngày:   "
+                                android:textColor="@android:color/black"
+                                android:textSize="22dp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/txtngay"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textStyle="bold"
+                                android:textSize="25dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10sp"
+                                android:text="Phòng:   "
+                                android:textColor="@android:color/black"
+                                android:textSize="22dp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/txtphong"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textStyle="bold"
+                                android:textSize="25dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ghế:   "
+                                android:textColor="@android:color/black"
+                                android:textSize="22dp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/txtghe"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textStyle="bold"
+                                android:textSize="25dp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10sp"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                android:text="Giá:   "
+                                android:textSize="22dp" />
+
+                            <TextView
+                                android:id="@+id/txtgia"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="123"
+                                android:textStyle="bold"
+                                android:textSize="25dp"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout> <!--Top ticket view content-->
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout> <!--TicketView and content inside-->
+
+            </RelativeLayout> <!--Purchased ticket info-->
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

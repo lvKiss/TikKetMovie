@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable-v24/background_item_choose_seat.xml" value="0.22135416666666666" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable-v24/line_bottom.xml" value="0.3828125" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable-v24/rounded_corner_without_border_dark.xml" value="0.36875" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable-v24/slide_up_down_icon_drawable.xml" value="0.3828125" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable-xxxhdpi/btn_create.xml" value="0.3828125" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable-xxxhdpi/ic_back_button.xml" value="0.3828125" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable-xxxhdpi/transparent_to_black_gradient.xml" value="0.3828125" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable/bg_transparent_black.xml" value="0.3769230769230769" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable/border_background_dark_color.xml" value="0.3769230769230769" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable/border_background_primary_color.xml" value="0.3828125" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable/border_image.xml" value="0.3828125" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable/custom_border_background.xml" value="0.3828125" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable/ic_acccount.xml" value="0.3828125" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3769230769230769" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/TicketMovie/app/src/main/res/drawable/iconcinea_background.xml" value="0.2203125" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/activity_homefragments.xml" value="0.33" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/activity_luu_ve.xml" value="0.33" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/activity_main2.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/activity_room.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/activity_sign_in.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/activity_signup.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/book_ticket_movie.xml" value="0.33" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/cancel_ticket.xml" value="0.3625" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/change_pass.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/fragment_item.xml" value="0.20520833333333333" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/fragment_item_list.xml" value="0.20520833333333333" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/information_movie_fragment.xml" value="0.3625" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/item_choose_seat_square.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/item_movie.xml" value="0.3469387755102041" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/item_xuatchieu.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/list_movie.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/list_veluu.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/locations_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/logged_out.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/login_fragments.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/movie_home_fragment.xml" value="0.33" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/noi_bat_fragment.xml" value="0.3625" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/personal_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/profile_user.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/recipe_placeholder_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/trailer_movie.xml" value="0.3625" />
+        <entry key="..\:/TicketMovie/app/src/main/res/layout/view_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/menu/bottombar_tabs.xml" value="0.36666666666666664" />
+        <entry key="..\:/TicketMovie/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+        <entry key="..\:/TicketMovie/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2203125" />
+        <entry key="..\:/TicketMovie/app/src/main/res/mipmap-anydpi-v26/iconcinea.xml" value="0.2203125" />
+        <entry key="..\:/TicketMovie/app/src/main/res/mipmap-anydpi-v26/iconcinea_round.xml" value="0.2203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

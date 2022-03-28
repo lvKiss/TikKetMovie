@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_trending"
+        android:icon="@drawable/tickets"
+        android:title="Nổi bật" />
+<!--    <tab-->
+<!--        id="@+id/tab_location"-->
+<!--        icon="@drawable/courthouse"-->
+<!--        title="Địa điểm" />-->
+    <item
+        android:id="@+id/tab_user"
+        android:icon="@drawable/user"
+        android:title="Thông tin" />
+</Menu>
